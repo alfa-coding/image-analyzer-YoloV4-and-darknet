@@ -13,3 +13,13 @@ This respository provides the necessary tools to perform object detection using 
 ## To deactivate an active environment, use:
 
  `$ conda deactivate`
+
+ ## get the tiny weigths
+
+`$wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights`
+
+Then, locate them within the assets folder.
+
+# To run the test:
+
+`$pytest`
