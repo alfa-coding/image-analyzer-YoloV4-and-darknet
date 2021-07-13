@@ -12,3 +12,4 @@ dependencies:
     - numpy
     - scikit-image
     - jupyterlab
+    - pytest==6.2.2
