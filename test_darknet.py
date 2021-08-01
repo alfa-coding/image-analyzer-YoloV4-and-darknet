@@ -1,5 +1,5 @@
 import cv2
-from darknet_functionalities import loadClasses, loadNet,do_image_processing
+from detect import loadClasses, loadNet,do_image_processing
 
 def test_CNNetworkload():
     newnet= loadNet("assets/yolov4-tiny.weights","assets/yolov4-tiny.cfg")
