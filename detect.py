@@ -26,13 +26,11 @@ def get_output_layers(net):
 
     return output_layers
 
-def do_image_processing(net,classes, imagePassed):
+def do_image_processing(net,classes, image):
     """
     docstring
     """
-    # read input image
-    image = cv2.imread(imagePassed)
-
+      
     Width = image.shape[1]
     Height = image.shape[0]
     scale = 0.00392
